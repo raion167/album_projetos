@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body, input, button, select, textarea{
+    font-family:'Roboto', sans-serif;
+}
+img{
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+img:hover{
+    filter: grayscale(0);
+}
+a{text-decoration:none;}
+
+.container a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.card-title{
+    color: red;
+    font-weight: bold;
+}
+
+.card-text a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
