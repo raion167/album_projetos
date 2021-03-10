@@ -9,6 +9,7 @@ html, body{
 body, input, button, select, textarea{
     font-family:'Roboto', sans-serif;
 }
+
 img{
     filter: grayscale(100%);
     transition: filter 0.5s;
@@ -17,7 +18,7 @@ img:hover{
     filter: grayscale(0);
 }
 a{text-decoration:none;}
-
+a{color: white;}
 .container a:hover{
     font-weight: bold;
     text-decoration: underline;
@@ -31,8 +32,6 @@ a{text-decoration:none;}
     color: red;
     text-decoration: underline;
 }
-
-
 
 
 
